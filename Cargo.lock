@@ -147,6 +147,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "rs-todo"
+version = "0.1.1"
+dependencies = [
+ "clap",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "ryu"
 version = "1.0.20"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -199,15 +208,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
-]
-
-[[package]]
-name = "todo-cli"
-version = "0.1.0"
-dependencies = [
- "clap",
- "serde",
- "serde_json",
 ]
 
 [[package]]
