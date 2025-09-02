@@ -4,7 +4,6 @@ use std::fs::{self, OpenOptions};
 use std::io::{self, Write};
 use std::path::Path;
 
-
 const FILE: &str = "todos.json";
 
 #[derive(Serialize, Deserialize)]
@@ -37,7 +36,6 @@ fn load_todos() -> Vec<String> {
         vec![]
     }
 }
-
 
 fn save_todos(todos: &[String]) -> io::Result<()> {
     let list = TodoList {
@@ -88,5 +86,3 @@ fn main() {
         }
     }
 }
-
-

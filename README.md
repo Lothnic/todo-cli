@@ -1,4 +1,4 @@
-# Todo CLI
+# RS-Todo
 
 A simple command-line todo application written in Rust. Manage your tasks efficiently from the terminal with persistent storage.
 
@@ -22,7 +22,7 @@ cargo --version
 
 ## Installation
 
-### Method 1: Clone and Build from Source
+### Clone and Build from Source
 
 1. **Clone the repository:**
    ```bash
@@ -42,24 +42,10 @@ cargo --version
    
    # Or use the compiled binary
    ./target/release/todo-cli <command>
-   ```
 
-### Method 2: Install Globally (Recommended)
-
-1. **Clone and navigate to the project:**
-   ```bash
-   git clone <your-repository-url>
-   cd todo-cli
-   ```
-
-2. **Install globally using cargo:**
-   ```bash
-   cargo install --path .
-   ```
-
-3. **Use from anywhere:**
-   ```bash
-   todo-cli <command>
+   # copy the binary into the PATH
+   # Best method on LINUX/MacOS
+   sudo cp target/release/todo-cli /usr/local/bin/todo-cli
    ```
 
 ## Usage
@@ -170,9 +156,6 @@ cargo build --release
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Future Enhancements
 
