@@ -1,0 +1,12 @@
+# Ignore compiled files
+/target
+**/*.rs.bk
+
+# Ignore executables
+*.exe
+*.out
+*.o
+
+# Ignore backup / temp files
+*.swp
+*.log
