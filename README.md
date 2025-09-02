@@ -50,7 +50,7 @@ cargo --version
 ### Method 2 : Install from crates.io
 
    ```bash
-   cargo install rs-todo
+   cargo install rstodo
    ```
 
 ## Usage
