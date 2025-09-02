@@ -147,8 +147,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "rs-todo"
-version = "0.1.1"
+name = "rstodo"
+version = "0.1.0"
 dependencies = [
  "clap",
  "serde",

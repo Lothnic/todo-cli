@@ -22,7 +22,7 @@ cargo --version
 
 ## Installation
 
-### Clone and Build from Source
+### Method 1 : Clone and Build from Source
 
 1. **Clone the repository:**
    ```bash
@@ -46,6 +46,11 @@ cargo --version
    # copy the binary into the PATH
    # Best method on LINUX/MacOS
    sudo cp target/release/todo-cli /usr/local/bin/todo-cli
+   ```
+### Method 2 : Install from crates.io
+
+   ```bash
+   cargo install todo-cli
    ```
 
 ## Usage
